@@ -1,0 +1,72 @@
+a:link{text-decoration:none;}a:visited{text-decoration:none;}a:hover{text-decoration:none;}a:active{text-decoration:none;}
+/* For WebKit-based browsers */
+::-webkit-scrollbar {width: 8px}::-webkit-scrollbar-track{background-color: #212121;}::-webkit-scrollbar-thumb{background-color: #888;border-radius: 8px;}::-webkit-scrollbar-thumb:hover{background-color: #555;}
+/* For Firefox */
+*{scrollbar-width:thin;scrollbar-color:#888#212121;}*::-webkit-scrollbar-track{background-color:#212121;}*::-webkit-scrollbar-thumb{background-color:#888;border-radius: 8px;}*::-webkit-scrollbar-thumb:hover{background-color:#555;}
+*{    .hidden {
+    display: none;
+}}
+body {
+    background-color: #141414;
+    margin: 0;
+    background-size: cover;
+    font-family: "Pontano Sans", sans-serif;
+}
+/* nav */
+.nav{
+    height: 30px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    .lang{
+        button{
+            cursor: pointer;
+            font-size: 17px;
+            padding: 10px 15px;
+            border: transparent;
+            color: white;
+            background-color: #212121;
+            border-radius: 4px;
+            &:hover{
+                background: #313131;
+            }
+            &:active{
+                background: #121212;
+            }
+        }
+    }
+    .nav-links {
+        margin: 0;
+        padding: 50px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 500px;
+        padding-right: 670px;
+        // background-color: #151515;
+        .nav-link {
+            margin: 10px;
+            padding: 5px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #161616;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            -webkit-transition: all 0.2s linear;
+            -moz-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            &:hover{
+                color: #111111;
+                background-color: #f3f3f3;
+                border: 5px solid whitesmoke;
+                border-left: 15px solid whitesmoke;
+                border-right: 15px solid whitesmoke;
+            }
+        }
+    }
+}
+
+

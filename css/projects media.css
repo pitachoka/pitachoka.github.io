@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  .nav-links {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .main .tc, .main .in-dev, .main .in-dev2 {
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .main .tc, .main .in-dev {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .main .in-dev2 {
+    margin-top: 3rem;
+  }
+  .main .txt {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .main img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens between 769px and 1024px */
+  .nav-links {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .main .tc, .main .in-dev, .main .in-dev2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for screens larger than 1024px */
+  .nav-links {
+    padding-left: 5rem;
+    padding-right: 6.7rem;
+  }
+  .main .tc, .main .in-dev, .main .in-dev2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}/*# sourceMappingURL=projects media.css.map */

@@ -1,0 +1,114 @@
+.main .tc {
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  transition: 0.5s;
+}
+.main .tc:hover {
+  height: 50%;
+  font-size: 30px;
+}
+.main .tc:hover img {
+  width: 600px;
+  border: 5px #fff solid;
+}
+.main .tc:active {
+  margin: 0;
+  background-color: #1f1f1f;
+}
+.main .tc:active img {
+  width: 100%;
+}
+.main .tc:active .txt {
+  width: 600px;
+}
+.main .tc .txt {
+  transition: 0.5s;
+  font-size: 15px;
+  text-align: left;
+  width: 600px;
+  margin-left: 1rem;
+  color: #fff;
+}
+.main .tc img {
+  border: 2px #fff solid;
+  transition: 0.5s;
+  width: 500px;
+}
+.main .in-dev {
+  display: flex;
+  justify-content: right;
+  margin-right: 3rem;
+  margin-top: 5rem;
+  transition: 0.5s;
+}
+.main .in-dev:hover {
+  height: 50%;
+  font-size: 30px;
+}
+.main .in-dev:hover img {
+  width: 600px;
+  border: 5px #fff solid;
+}
+.main .in-dev:active {
+  margin: 0;
+  background-color: #1f1f1f;
+}
+.main .in-dev:active img {
+  width: 100%;
+}
+.main .in-dev:active .txt {
+  width: 600px;
+}
+.main .in-dev .txt {
+  transition: 0.5s;
+  font-size: 15px;
+  text-align: right;
+  width: 600px;
+  margin-right: 1rem;
+  color: #fff;
+}
+.main .in-dev img {
+  justify-content: right;
+  border: 2px #fff solid;
+  transition: 0.5s;
+  width: 500px;
+}
+.main .in-dev2 {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  transition: 0.5s;
+}
+.main .in-dev2:hover {
+  height: 50%;
+  font-size: 30px;
+}
+.main .in-dev2:hover img {
+  width: 600px;
+  border: 5px #fff solid;
+}
+.main .in-dev2 .txt {
+  transition: 0.5s;
+  font-size: 15px;
+  text-align: left;
+  width: 600px;
+  margin-left: 1rem;
+  color: #fff;
+}
+.main .in-dev2 img {
+  border: 2px #fff solid;
+  transition: 0.5s;
+  width: 500px;
+}
+.main .in-dev2:active {
+  margin: 0;
+  background-color: #1f1f1f;
+}
+.main .in-dev2:active img {
+  width: 100%;
+}
+.main .in-dev2:active .txt {
+  width: 600px;
+}/*# sourceMappingURL=projects.css.map */

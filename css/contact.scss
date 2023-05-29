@@ -1,0 +1,38 @@
+*{margin: 0;}
+.main{
+  margin: 0;
+  .contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    .txt{
+      padding: 3rem;
+      margin: 0;
+      background-color: #1f1f1f;
+      width: 500px;
+      border-radius: 10px;
+    }
+    h3{
+      cursor: pointer;
+      border: 1px solid #fff;
+      border-radius: 5px;
+    }
+    h1, h3, p{
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    h3{
+      transition: 0.5s;
+      &:hover{
+        font-size: 25px;
+      }
+      &:active{
+        background-color: green;
+      }
+    }
+  }
+}

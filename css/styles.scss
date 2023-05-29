@@ -1,0 +1,27 @@
+.main {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+    flex-direction: column;
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
